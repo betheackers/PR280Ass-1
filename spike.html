@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Check if a given integer has an increasing digits sequence</title>
+</head>
+<body>
+  <script>
+    var sequenceNumbers = false
+    function increasingDigits(array) {
+      for (var i = 0; i < array.length; i++) {
+          if (array[i] >= (array[i-1])) {
+            this.sequenceNumbers = true
+            console.log(array[i])
+            } else {
+              this.sequenceNumbers = false
+              console.log(array[i])
+              //console.log(this.sequenceNumbers)
+              }
+      }
+      console.log(this.sequenceNumbers)
+    }
+    this.increasingDigits([3,4,5]); // true
+    this.increasingDigits([3,3,4,5]); // true
+    this.increasingDigits([5,4,3,2]); // false
+  </script>
+</body>
+</html>
+<!-- // computed: {
+//   disableInput () {
+//     if (this.input || this.nextNumber === null) {
+//       return false
+//     }
+//     // return this.input == this.rogue
+//     // return this.input.toString().includes(this.rogue.toString())
+//     console.log('true')
+//     return this.nextNumber.toString() === this.rogue.toString()
+//   }
+//
+// },
+// methods: {
+//   addToArray () {
+//     this.previousInput.push(this.input)
+//     this.nextNumber = null
+//   },
+//   parseInput : function(event) {
+//     this.input = this.nextNumber * 1
+//     if (this.input !== this.rogue) {
+//       this.addToArray()
+//     } else {
+//     console.log('the rogue')
+//       this.input = null
+//       this.output()
+//     }
+//   },
+//   output() {
+//     if (this.input === this.rogue) {
+//       this.disableInput()
+//     }
+//     this.checkSequence()
+//     console.log(this.sequenceNumbers)
+//     this.end = true
+//   },
+//   onEnter: function () {
+//     if (!this.disableInput && this.input !== null) {
+//       this.nextNumber = null
+//     }
+//   },
+//   checkSequence() {
+//     let array = this.previousInput
+//     for (var i = 0; i < array.length; i++) {
+//         if (array[i] >= (array[i-1])) {
+//           this.sequenceNumbers = true
+//           console.log(array[i])
+//           console.log(this.sequenceNumbers)
+//         } else {
+//             this.sequenceNumbers = false
+//             break
+//             console.log(array[i])
+//             console.log(this.sequenceNumbers)
+//             }
+//     }
+//     console.log(this.sequenceNumbers)
+//
+//   }
+// } -->
