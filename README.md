@@ -15,7 +15,8 @@ Marking schedule
     * storyboard
     * Wireframe with tag types, classes/names/ids, attributes, and associated CSS values
     * Pseudocode
-    * ‘Planning A Complex Algorithm’ worksheet*Spike solution1.
+    * ‘Planning A Complex Algorithm’ worksheet
+    * Spike solution1.
     (10 marks)
 4. Fill in test planning section of the test report in plain English for all functions required. (10 marks)
 5. Working programs with all required features and proof of they pass StandardJS validation (30 marks)
