@@ -23,7 +23,7 @@ Marking schedule
 7. At least 5 Error logs each recording at least 5 errors (10 marks)
 8. At least 5 Process Improvement Proposals (10 marks)
 
-#Problem Set:
+## Problem Set:
 
 1. Input a series of letters. End with a "rogue" of a full stop. Output the number of g’s entered (there may not be any).
 2. Input a "target" letter, followed by a series of letters. End with a "rogue" of a full stop. Output the number of times the target letter was entered in the series.
